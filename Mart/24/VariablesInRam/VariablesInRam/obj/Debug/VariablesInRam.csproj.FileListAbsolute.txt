@@ -1,0 +1,7 @@
+C:\Users\Education\Desktop\VariablesInRam\VariablesInRam\bin\Debug\VariablesInRam.exe.config
+C:\Users\Education\Desktop\VariablesInRam\VariablesInRam\bin\Debug\VariablesInRam.exe
+C:\Users\Education\Desktop\VariablesInRam\VariablesInRam\bin\Debug\VariablesInRam.pdb
+C:\Users\Education\Desktop\VariablesInRam\VariablesInRam\obj\Debug\VariablesInRam.csprojAssemblyReference.cache
+C:\Users\Education\Desktop\VariablesInRam\VariablesInRam\obj\Debug\VariablesInRam.csproj.CoreCompileInputs.cache
+C:\Users\Education\Desktop\VariablesInRam\VariablesInRam\obj\Debug\VariablesInRam.exe
+C:\Users\Education\Desktop\VariablesInRam\VariablesInRam\obj\Debug\VariablesInRam.pdb
