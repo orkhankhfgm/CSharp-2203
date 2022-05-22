@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InnerType
 {
@@ -81,6 +77,38 @@ namespace InnerType
             };
 
             customer.Orders[1] = orderPhone;
+
+            //customer.ShowAddresses();
+            //customer.ShowContacts();
+            //customer.ShowOrders();
+            customer.ShowAllInfo();
+            Console.ReadLine();
+
+            //Student st = new Student();
+            //var stName = st.Name.ToString();
+            //var bDate = st.BirthDate.Year;
+            //var add = st.Address.Distinct;
+
+            Customer[] customers = new Customer[2];
+            customers[0] = new Customer();
+            customers[1] = new Customer();
+
+            foreach (var c in customers)
+            {
+                Console.WriteLine(c.Name + " " + c.Surname);
+
+                foreach (var adress in c.Addresses)
+                {
+                    Console.WriteLine(adress.Street);
+                }
+            }
         }
+    }
+
+    public class Student
+    {
+        public string Name { get; set; }
+        public Address Address { get; set; }
+        public DateTime BirthDate { get; set; }
     }
 }
